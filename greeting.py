@@ -37,8 +37,7 @@ def greet():
     temp_F = conver_to_fahr(temp_C)
     return f"It's {temp_F} deg F in {geo_data['city']},{geo_data['region']}, {geo_data['country']}"
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     import sys
 
     print(greet(sys.argv[1]))
